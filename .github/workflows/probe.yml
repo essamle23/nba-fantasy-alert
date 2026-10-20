@@ -1,0 +1,34 @@
+name: probe
+
+# Quick reachability check of every source from a GitHub runner, plus one dry-run poll.
+# The long-running poller's logs are only visible after it ends, so use this to debug.
+on:
+  workflow_dispatch:
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - name: Source HTTP status
+        run: |
+          for u in \
+            "https://www.rotowire.com/rss/news.php?sport=NBA" \
+            "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries" \
+            "https://official.nba.com/nba-injury-report-2025-26-season/" ; do
+            echo "$(curl -s -o /dev/null -A 'Mozilla/5.0 (nba-fantasy-alert)' -w '%{http_code}' "$u") $u"
+          done
+      - name: One dry-run poll cycle (seed + parse)
+        env:
+          ONCE: "1"
+          DRY_RUN: "1"
+          STATE_PATH: /tmp/probe_state.json
+        run: |
+          python -m bot.main
+          python -c "import json; d=json.load(open('/tmp/probe_state.json')); print({k: len(v.get('players', v.get('status', v.get('seen', [])))) for k, v in d.items() if isinstance(v, dict) and k != 'sent'}); print('report:', d.get('nba_report', {}).get('last_url'))"
