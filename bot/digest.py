@@ -15,31 +15,18 @@ from datetime import datetime, timedelta
 import requests
 
 from .classify import classify
+from . import ranks
 from .models import normalize_name
+from .state import State
 from .sources import espn, nba_report
 from .telegram import ET, Telegram, chunk, esc
 
-SLEEPER_URL = "https://api.sleeper.app/v1/players/nba"
 MAX_RANK = 200
 TONIGHT_MAX_RANK = 300  # tonight's report matters for streamers too
 
 STATUS_ORDER = {"Out": 0, "Doubtful": 1, "Questionable": 2, "Day-To-Day": 2, "Probable": 3}
 STATUS_EMOJI = {"Out": "🔴", "Doubtful": "🟠", "Questionable": "🟡", "Day-To-Day": "🟡",
                 "Probable": "🟢", "Available": "🟢"}
-
-
-def load_ranks() -> tuple[dict[str, dict], dict[str, dict]]:
-    """(by ESPN id, by normalized name) -> {rank, team}"""
-    data = requests.get(SLEEPER_URL, timeout=60).json()
-    by_espn, by_name = {}, {}
-    for p in data.values():
-        if not (p.get("active") and p.get("team") and p.get("search_rank")):
-            continue
-        info = {"rank": p["search_rank"], "team": p["team"]}
-        if p.get("espn_id"):
-            by_espn[str(p["espn_id"])] = info
-        by_name[normalize_name(p.get("full_name", ""))] = info
-    return by_espn, by_name
 
 
 def short_comment(text: str, limit: int = 150) -> str:
@@ -58,17 +45,12 @@ def short_date(iso: str) -> str:
         return ""
 
 
-def espn_id(url: str) -> str:
-    m = re.search(r"/id/(\d+)", url or "")
-    return m.group(1) if m else ""
-
-
-def build(now: datetime | None = None) -> list[str]:
+def build(now: datetime | None = None, state: State | None = None) -> list[str]:
     now = now or datetime.now(ET)
-    by_espn, by_name = load_ranks()
 
     def rank_of(name: str, url: str = "") -> dict | None:
-        return by_espn.get(espn_id(url)) or by_name.get(normalize_name(name))
+        info = ranks.lookup(name, ranks.espn_id_from_url(url))
+        return info if info and info["rank"] < 99999 else None
 
     # Tonight: the official report, games that haven't tipped.
     tonight_lines, tonight_players = [], set()
@@ -106,7 +88,7 @@ def build(now: datetime | None = None) -> list[str]:
         (out_lines if p["status"] == "Out" else dtd_lines).append(line)
 
     date = now.strftime("%b %-d")
-    msgs = [f"🏀 <b>Fantasy Injury Digest · {date}</b>\n"
+    msgs = [f"🏀 <b>Daily Fantasy Briefing · {date}</b>\n"
             f"Fantasy-relevant players only (top {MAX_RANK} by Sleeper rank), most valuable first.\n"
             f"🔴 Out · 🟠 Doubtful · 🟡 Questionable/GTD · 🟢 Probable/expected to play\n"
             f"<i>(date)</i> = last update; older notes may predate today's status."]
@@ -117,11 +99,22 @@ def build(now: datetime | None = None) -> list[str]:
         msgs += chunk(out_lines, "🔴 <b>Out / extended absence</b>")
     if dtd_lines:
         msgs += chunk(dtd_lines, "🟡 <b>Day-to-day</b>")
+
+    recent = (state.data.get("breakouts", {}).get("recent", []) if state else [])
+    if recent:
+        tiers = {"STRONG BUY": 0, "BUY": 1, "WATCH": 2}
+        emoji = {"STRONG BUY": "🔥", "BUY": "✅", "WATCH": "👀"}
+        lines = []
+        for c in sorted(recent, key=lambda c: (tiers[c["tier"]], -c["fp"])):
+            ctx = f" · with {esc(', '.join(c['key_out']))} out" if c["key_out"] else ""
+            lines.append(f"{emoji[c['tier']]} <b>{esc(c['player'])}</b> ({c['team']}) "
+                         f"{c['fp']} FP — {esc(c['line'])}{ctx}")
+        msgs += chunk(lines, "💰 <b>Buy signals from last night</b>")
     return msgs
 
 
 def main() -> None:
-    msgs = build()
+    msgs = build(state=State())
     send = "--send" in sys.argv
     tg = Telegram() if send else None
     for m in msgs:

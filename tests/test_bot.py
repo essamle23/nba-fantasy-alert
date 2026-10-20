@@ -88,3 +88,26 @@ def test_espn_parse():
     assert len(players) > 20
     p = next(iter(players.values()))
     assert p["status"] and p["player"] and p["team"]
+
+
+def test_breakouts_analyze(monkeypatch):
+    from bot import ranks
+    from bot.sources import breakouts
+
+    # Fake Sleeper ranks: Quickley/Barrett/Poeltl are key starters, everyone else low-profile.
+    key = {"Immanuel Quickley": 60, "RJ Barrett": 90, "Jakob Poeltl": 110}
+    monkeypatch.setattr(ranks, "lookup", lambda name="", espn_id="": (
+        {"rank": key[name], "team": "TOR", "pos": "", "sleeper_id": ""} if name in key
+        else {"rank": 400, "team": "", "pos": "G", "sleeper_id": "x"}))
+    summary = json.loads((FIX / "espn_summary_tor_det.json").read_text())
+    cands = {c["player"]: c for c in breakouts.analyze(summary)}
+    smith = cands["Malachi Smith"]
+    assert smith["tier"] == "STRONG BUY"
+    assert set(smith["key_out"]) == set(key)
+    assert smith["fp"] >= breakouts.FP_BREAKOUT and not smith["started"]
+    assert all(c["fp"] >= breakouts.FP_BREAKOUT or c["tier"] != "WATCH" for c in cands.values())
+
+
+def test_fantasy_points():
+    from bot.sources.breakouts import fantasy_points
+    assert fantasy_points({"pts": 20, "reb": 10, "ast": 5, "stl": 1, "blk": 1, "to": 2}) == 20 + 12 + 7.5 + 3 + 3 - 2

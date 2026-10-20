@@ -5,9 +5,11 @@ from __future__ import annotations
 import logging
 import os
 import time
+from datetime import datetime, timedelta, timezone
 
+from . import digest
 from .models import CATEGORIES, Alert
-from .sources import espn, nba_report, rotowire
+from .sources import breakouts, espn, nba_report, rotowire
 from .state import State
 from .telegram import Telegram, chunk, esc, format_alert
 
@@ -18,7 +20,28 @@ SOURCES = [
     (rotowire, 30),
     (espn, 60),
     (nba_report, 120),
+    (breakouts, 180),
 ]
+KST = timezone(timedelta(hours=9))
+# Daily briefing, Korea time: before the first tip-offs (~08:00 KST) and after
+# game-day injury reports are mostly in. Only sent inside a 1-hour window so a
+# restart later in the day doesn't fire a stale briefing.
+DIGEST_HOUR_KST = int(os.environ.get("DIGEST_HOUR_KST", "7"))
+
+
+def maybe_send_digest(tg: Telegram, state: State) -> None:
+    now = datetime.now(KST)
+    sec = state.section("digest")
+    today = now.strftime("%Y-%m-%d")
+    if now.hour != DIGEST_HOUR_KST or sec.get("last") == today:
+        return
+    sec["last"] = today
+    state.save()
+    for msg in digest.build(state=state):
+        tg.send(msg)
+    log.info("daily digest sent")
+
+
 ORDER = list(CATEGORIES)
 
 
@@ -71,6 +94,10 @@ def run() -> None:
             backoff = min(interval * (2 ** errors[mod.NAME]), 600) if errors[mod.NAME] else interval
             next_due[mod.NAME] = time.time() + backoff
             state.save()
+        try:
+            maybe_send_digest(tg, state)
+        except Exception:
+            log.exception("digest failed")
         if os.environ.get("ONCE") == "1":
             break
         time.sleep(max(1.0, min(next_due.values()) - time.time()))

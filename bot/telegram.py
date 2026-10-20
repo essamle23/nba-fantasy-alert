@@ -22,6 +22,8 @@ def esc(s: str) -> str:
 
 def format_alert(a: Alert) -> str:
     emoji, label = CATEGORIES[a.category]
+    if a.extra.get("tier"):
+        emoji, label = {"STRONG BUY": "🔥", "BUY": "✅", "WATCH": "👀"}[a.extra["tier"]], a.extra["tier"]
     team = f" ({esc(a.team)})" if a.team else ""
     lines = [f"{emoji} <b>{label} · {esc(a.player)}</b>{team}", esc(a.headline)]
     if a.detail:
@@ -29,7 +31,8 @@ def format_alert(a: Alert) -> str:
         lines.append(f"<i>{esc(detail)}</i>")
     stamp = datetime.now(ET).strftime("%-I:%M %p ET")
     src = f'<a href="{esc(a.url)}">{esc(a.source)}</a>' if a.url else esc(a.source)
-    lines.append(f"— {src} · {stamp}")
+    game = f" · {esc(a.extra['score'])}" if a.extra.get("score") else ""
+    lines.append(f"— {src}{game} · {stamp}")
     return "\n".join(lines)
 
 

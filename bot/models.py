@@ -13,6 +13,7 @@ CATEGORIES = {
     "LINEUP": ("🔵", "LINEUP"),
     "MOVE": ("🟣", "TRANSACTION"),
     "UPDATE": ("⚪", "UPDATE"),
+    "BUY": ("🔥", "BUY SIGNAL"),  # label/emoji overridden per tier via extra["tier"]
 }
 
 
