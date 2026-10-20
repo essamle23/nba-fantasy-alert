@@ -33,12 +33,18 @@ def maybe_send_digest(tg: Telegram, state: State) -> None:
     now = datetime.now(KST)
     sec = state.section("digest")
     today = now.strftime("%Y-%m-%d")
+    if "snapshot" not in sec:
+        # No baseline yet: record one silently so the first briefing shows changes
+        # instead of re-sending the full injury list.
+        digest.build(state=state, commit=True)
+        state.save()
+        log.info("digest baseline snapshot recorded")
     if now.hour != DIGEST_HOUR_KST or sec.get("last") == today:
         return
     sec["last"] = today
-    state.save()
-    for msg in digest.build(state=state):
+    for msg in digest.build(state=state, commit=True):
         tg.send(msg)
+    state.save()
     log.info("daily digest sent")
 
 

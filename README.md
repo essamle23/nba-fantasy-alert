@@ -17,8 +17,10 @@ played 20+ min and scored 28+ fantasy points (Yahoo points scoring) or 5+ stocks
 🔥 STRONG BUY = a top-150 teammate sat and he started or played 30+ min ·
 ✅ BUY = a top-150 teammate sat · 👀 WATCH = no such context but 35+ FP.
 
-**Daily briefing** (`bot/digest.py`) at 07:00 KST (`DIGEST_HOUR_KST`): next games'
-official report, notable Out / day-to-day players (Sleeper top 200), and last night's buy signals.
+**Daily briefing** (`bot/digest.py`) at 07:00 KST (`DIGEST_HOUR_KST`), change-focused:
+last night's buy signals, status changes and fresh notes since the previous briefing
+(diffed against a saved snapshot), tonight's official report, then unchanged players
+collapsed to one line of names (full detail on Mondays).
 
 The official report is sent as one digest per update; other alerts are one message each.
 The same player + category is sent at most once per 2 hours across sources.
