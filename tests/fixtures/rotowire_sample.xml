@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>RotoWire.com Latest NBA News</title>
+    <copyright>Copyright (c) 2026 Roto Sports, Inc, All rights reserved.</copyright>
+    <description>Fantasy Sports from RotoWire.com</description>
+    <category>Fantasy Sports</category>
+    <language>en-us</language>
+    <ttl>10</ttl>
+    <image>
+      <title>RotoWire.com Fantasy Sports</title>
+      <width>120</width>
+      <height>30</height>
+      <link>https://www.rotowire.com</link>
+      <url>https://assets.rotowire.com/images/logo_roto_small.gif</url>
+    </image>
+    <link>https://www.rotowire.com</link>
+    <item>
+        <guid>nba535188</guid>
+        <title>Bam Adebayo: Takes part in practice Monday</title>
+        <link>https://www.rotowire.com//basketball/player/bam-adebayo-4153</link>
+        <description>Adebayo (groin) participated in Monday's practice, Anthony Chiang of the Miami Herald reports.
+
+        Visit RotoWire.com for more analysis on this update.</description>
+        <pubDate>Mon, 19 Oct 2026 4:15:00 PM PDT</pubDate>
+    </item>
+    <item>
+        <guid>nba535189</guid>
+        <title>Pelle Larsson: Practices Monday</title>
+        <link>https://www.rotowire.com//basketball/player/pelle-larsson-6013</link>
+        <description>Larsson (illness) participated in Monday's practice, Anthony Chiang of the Miami Herald reports.
+
+        Visit RotoWire.com for more analysis on this update.</description>
+        <pubDate>Mon, 19 Oct 2026 4:15:00 PM PDT</pubDate>
+    </item>
+    <item>
+        <guid>nba535187</guid>
+        <title>Josh Hart: Ready for season opener</title>
+        <link>https://www.rotowire.com//basketball/player/josh-hart-4136</link>
+        <description>Hart (ankle) isn't listed on the injury report ahead of Tuesday's game against the 76ers.
+
+        Visit RotoWire.com for more analysis on this update.</description>
+        <pubDate>Mon, 19 Oct 2026 3:37:00 PM PDT</pubDate>
+    </item>
+    <item>
+        <guid>nba535186</guid>
+        <title>VJ Edgecombe: Team option picked up</title>
+        <link>https://www.rotowire.com//basketball/player/vj-edgecombe-6550</link>
+        <description>The 76ers exercised the third-year team option on Edgecombe's contract for the 2027-28 season Monday, Derek Bodner of AllPHLY.com reports.
+
+        Visit RotoWire.com for more analysis on this update.</description>
+        <pubDate>Mon, 19 Oct 2026 3:22:00 PM PDT</pubDate>
+    </item>
+    <item>
+        <guid>nba535185</guid>
+        <title>Cason Wallace: Not listed on injury report</title>
+        <link>https://www.rotowire.com//basketball/player/cason-wallace-5898</link>
+        <description>Wallace (undisclosed) is not listed on the injury report ahead of Tuesday's regular-season opener against the Spurs, Justin Martinez of The Oklahoman reports.
+
+        Visit RotoWire.com for more analysis on this update.</description>
+        <pubDate>Mon, 19 Oct 2026 3:17:00 PM PDT</pubDate>
+    </item>
+  </channel>
+</rss>
