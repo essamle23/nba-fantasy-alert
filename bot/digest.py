@@ -99,7 +99,7 @@ def build(now: datetime | None = None, state: State | None = None, commit: bool 
         elif old["status"] != p["status"]:
             changes.append(f"{head} — <b>{esc(old['status'])} → {esc(p['status'])}</b> — {note(p)}")
         elif p.get("date") and p.get("date") != old.get("date"):
-            notes.append(f"{head} — {note(p)}")
+            notes.append((key, f"{head} — {note(p)}"))
         else:
             unchanged.append((p, f"{head} — {note(p)}"))
     for key, old in sorted(prev.items(), key=lambda kv: kv[1]["rank"]):
@@ -133,6 +133,8 @@ def build(now: datetime | None = None, state: State | None = None, commit: bool 
             tonight_lines.append("<i>Also out, no change: " + ", ".join(tonight_quiet) + "</i>")
 
     recent = state.data.get("breakouts", {}).get("recent", []) if state else []
+    # Tonight's report already covers these players; don't repeat them as notes.
+    notes = [ln for key, ln in notes if key not in tonight_names]
 
     # --- Assemble -----------------------------------------------------------------
     date = datetime.now(KST).strftime("%a %b %-d")
