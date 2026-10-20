@@ -32,3 +32,13 @@ jobs:
         run: |
           python -m bot.main
           python -c "import json; d=json.load(open('/tmp/probe_state.json')); print({k: len(v.get('players', v.get('status', v.get('seen', [])))) for k, v in d.items() if isinstance(v, dict) and k != 'sent'}); print('report:', d.get('nba_report', {}).get('last_url'))"
+      - name: Telegram credentials (values never printed)
+        env:
+          TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          CHAT: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: |
+          echo "token length: ${#TOKEN}, chat id length: ${#CHAT}"
+          [ -n "$TOKEN" ] || { echo "TELEGRAM_BOT_TOKEN is empty"; exit 1; }
+          curl -s "https://api.telegram.org/bot${TOKEN}/getMe" | python -c "import json,sys; d=json.load(sys.stdin); print('getMe ok:', d.get('ok'), '@' + d.get('result', {}).get('username', '?'))"
+          [ -n "$CHAT" ] || { echo "TELEGRAM_CHAT_ID is empty"; exit 1; }
+          curl -s "https://api.telegram.org/bot${TOKEN}/getChat" --data-urlencode "chat_id=${CHAT}" | python -c "import json,sys; d=json.load(sys.stdin); r=d.get('result', {}); print('getChat ok:', d.get('ok'), r.get('type'), r.get('title'), d.get('description', ''))"
