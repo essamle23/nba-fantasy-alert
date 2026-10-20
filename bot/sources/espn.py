@@ -25,6 +25,7 @@ def parse(data: dict) -> dict[str, dict]:
                 "team": team.get("displayName", ""),
                 "status": inj.get("status", ""),
                 "comment": inj.get("shortComment", ""),
+                "date": inj.get("date", ""),
                 "url": link,
             }
     return out
