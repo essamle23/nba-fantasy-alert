@@ -197,7 +197,8 @@ def diff(state: State, rows: list[dict], now: datetime, url: str, report_time: s
                 last_status[player] = "Available"
                 alerts.append(Alert("NBA Injury Report", player, "AVAILABLE",
                                     f"Removed from report (was {p['status']}) ({p['matchup']})",
-                                    team=p["team"], url=url, extra={"report_time": report_time}))
+                                    team=p["team"], url=url,
+                                    extra={"report_time": report_time, "inferred": True}))
 
     sec["upcoming"] = {
         pl: {"status": r["status"], "matchup": r["matchup"], "team": r["team"],

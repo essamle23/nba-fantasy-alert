@@ -79,7 +79,7 @@ def poll(state: State) -> list[Alert]:
             missing.pop(pid, None)
             alerts.append(Alert("ESPN", old["player"], "AVAILABLE",
                                 f"Removed from injury list (was {old['status']})",
-                                team=old["team"], url=old["url"]))
+                                team=old["team"], url=old["url"], extra={"inferred": True}))
     sec["players"] = {pid: {k: p[k] for k in ("player", "team", "status", "url")}
                       for pid, p in current.items()}
     state.mark_seeded(NAME)

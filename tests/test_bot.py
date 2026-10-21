@@ -135,3 +135,24 @@ def test_espn_reissued_injury_id_is_not_a_change(tmp_path, monkeypatch):
     assert espn.poll(st) == []
     alerts = espn.poll(st)
     assert [(a.player, a.category) for a in alerts] == [(gone, "AVAILABLE")]
+
+
+def test_guard_blocks_false_available(tmp_path):
+    from bot import guard
+    from bot.models import Alert
+    st = State(str(tmp_path / "s.json"))
+    removed = Alert("ESPN", "Ben Simmons", "AVAILABLE", "Removed from injury list (was Out)",
+                    extra={"inferred": True})
+    out = Alert("ESPN", "Ben Simmons", "OUT", "Added to injury list: Out")
+    # Same batch contradicts: keep only OUT (the exact 2026-10-21 Simmons incident).
+    assert guard.check(st, [removed, out]) == [out]
+
+    # Another source still has him out: drop the inferred AVAILABLE.
+    st.data["nba_report"] = {"upcoming": {"Ben Simmons": {"status": "Out"}}}
+    assert guard.check(st, [removed]) == []
+
+    # Explicit news is never blocked; inferred AVAILABLE passes when nothing says out.
+    news = Alert("RotoWire", "Ben Simmons", "AVAILABLE", "Available to play")
+    assert guard.check(st, [news]) == [news]
+    st.data["nba_report"] = {"upcoming": {}}
+    assert guard.check(st, [removed]) == [removed]

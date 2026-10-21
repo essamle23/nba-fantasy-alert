@@ -7,7 +7,7 @@ import os
 import time
 from datetime import datetime, timedelta, timezone
 
-from . import digest
+from . import digest, guard
 from .models import CATEGORIES, Alert
 from .sources import breakouts, espn, nba_report, rotowire
 from .state import State
@@ -53,7 +53,7 @@ ORDER = list(CATEGORIES)
 
 def publish(tg: Telegram, state: State, alerts: list[Alert]) -> None:
     fresh = []
-    for a in alerts:
+    for a in guard.check(state, alerts):
         if state.recently_sent(a.dedup_key):
             log.info("dedup skip: %s %s (%s)", a.player, a.category, a.source)
             continue
