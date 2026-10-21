@@ -111,3 +111,27 @@ def test_breakouts_analyze(monkeypatch):
 def test_fantasy_points():
     from bot.sources.breakouts import fantasy_points
     assert fantasy_points({"pts": 20, "reb": 10, "ast": 5, "stl": 1, "blk": 1, "to": 2}) == 20 + 12 + 7.5 + 3 + 3 - 2
+
+
+def test_espn_reissued_injury_id_is_not_a_change(tmp_path, monkeypatch):
+    data = json.loads((FIX / "espn_sample.json").read_text())
+    st = State(str(tmp_path / "s.json"))
+
+    class R:
+        def __init__(self, d): self.d = d
+        def raise_for_status(self): pass
+        def json(self): return self.d
+
+    monkeypatch.setattr(espn.requests, "get", lambda *a, **k: R(data))
+    assert espn.poll(st) == []  # seed
+    # ESPN re-issues injury record ids on update; same athletes, same statuses.
+    for t in data["injuries"]:
+        for i in t["injuries"]:
+            i["id"] = "new-" + str(i["id"])
+    assert espn.poll(st) == []
+
+    # A player dropping off needs two consecutive polls before "removed" fires.
+    gone = data["injuries"][0]["injuries"].pop(0)["athlete"]["displayName"]
+    assert espn.poll(st) == []
+    alerts = espn.poll(st)
+    assert [(a.player, a.category) for a in alerts] == [(gone, "AVAILABLE")]
