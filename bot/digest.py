@@ -19,7 +19,7 @@ from . import ranks
 from .models import normalize_name
 from .state import State
 from .sources import espn, nba_report
-from .telegram import ET, Telegram, chunk, esc
+from .telegram import ET, Telegram, chunk, esc, tag
 
 KST = timezone(timedelta(hours=9))
 MAX_RANK = 200
@@ -143,7 +143,7 @@ def build(now: datetime | None = None, state: State | None = None, commit: bool 
     else:
         summary = (f"{len(recent)} buy signals · {len(changes)} status changes · "
                    f"{len(notes)} new updates since yesterday")
-    msgs = [f"🏀 <b>Daily Fantasy Briefing · {date}</b>\n{summary}\n"
+    msgs = [f"{summary}\n"
             f"<i>Fantasy-relevant players only (Sleeper top {MAX_RANK}).</i>"]
     if recent:
         msgs += chunk(_buy_lines(recent), "💰 <b>Buy signals from last night</b>")
@@ -152,7 +152,7 @@ def build(now: datetime | None = None, state: State | None = None, commit: bool 
     if notes:
         msgs += chunk(notes, "📝 <b>New updates (same status)</b>")
     if tonight_lines:
-        msgs += chunk(tonight_lines, f"📋 <b>Tonight — official injury report</b> · {esc(report_time)} ET"
+        msgs += chunk(tonight_lines, f"🏥 <b>Tonight — official injury report</b> · {esc(report_time)} ET"
                                      f' · <a href="{esc(url)}">PDF</a>')
     if unchanged:
         if baseline or full_week_view:
@@ -171,6 +171,9 @@ def build(now: datetime | None = None, state: State | None = None, commit: bool 
                             f"<i>Full details every Monday.</i>")
     if not baseline and not (recent or changes or notes):
         msgs.insert(1, "😴 Quiet night — no status changes or buy signals since yesterday.")
+
+    # Every part carries the briefing tag + part number so it reads clearly in the feed.
+    msgs = [f"{tag('briefing', date, f'{i}/{len(msgs)}')}\n{m}" for i, m in enumerate(msgs, 1)]
 
     if commit and state is not None:
         sec["snapshot"] = {k: {f: v[f] for f in ("player", "team", "status", "date", "rank")}

@@ -4,7 +4,7 @@ import html
 import logging
 import os
 import time
-from datetime import datetime
+from datetime import datetime, timedelta, timezone
 from zoneinfo import ZoneInfo
 
 import requests
@@ -13,6 +13,15 @@ from .models import CATEGORIES, Alert
 
 log = logging.getLogger(__name__)
 ET = ZoneInfo("America/New_York")
+KST = timezone(timedelta(hours=9))
+
+# Message types: the first line of every post says which kind it is.
+KINDS = {
+    "alert": ("🚨", "ALERT"),
+    "report": ("📋", "OFFICIAL INJURY REPORT"),
+    "postgame": ("💰", "POSTGAME RECAP"),
+    "briefing": ("☀️", "DAILY BRIEFING"),
+}
 MAX_LEN = 4000  # Telegram hard limit is 4096
 
 
@@ -20,19 +29,31 @@ def esc(s: str) -> str:
     return html.escape(s or "", quote=False)
 
 
+def stamp(now: datetime | None = None) -> str:
+    now = now or datetime.now(ET)
+    return f"{now.astimezone(ET):%-I:%M %p} ET · {now.astimezone(KST):%-H:%M} KST"
+
+
+def tag(kind: str, *parts: str) -> str:
+    """'🚨 ALERT · Injury & status · 9:44 PM ET · 10:44 KST'"""
+    emoji, label = KINDS[kind]
+    return " · ".join([f"{emoji} <b>{label}</b>", *[p for p in parts if p]])
+
+
 def format_alert(a: Alert) -> str:
     emoji, label = CATEGORIES[a.category]
     if a.extra.get("tier"):
         emoji, label = {"STRONG BUY": "🔥", "BUY": "✅", "WATCH": "👀"}[a.extra["tier"]], a.extra["tier"]
+        header = tag("postgame", "Buy signal", esc(a.extra.get("score", "")), stamp())
+    else:
+        header = tag("alert", "Injury & status", stamp())
     team = f" ({esc(a.team)})" if a.team else ""
-    lines = [f"{emoji} <b>{label} · {esc(a.player)}</b>{team}", esc(a.headline)]
+    lines = [header, f"{emoji} <b>{label} · {esc(a.player)}</b>{team}", esc(a.headline)]
     if a.detail:
         detail = a.detail if len(a.detail) <= 350 else a.detail[:347].rsplit(" ", 1)[0] + "…"
         lines.append(f"<i>{esc(detail)}</i>")
-    stamp = datetime.now(ET).strftime("%-I:%M %p ET")
     src = f'<a href="{esc(a.url)}">{esc(a.source)}</a>' if a.url else esc(a.source)
-    game = f" · {esc(a.extra['score'])}" if a.extra.get("score") else ""
-    lines.append(f"— {src}{game} · {stamp}")
+    lines.append(f"— {src}")
     return "\n".join(lines)
 
 

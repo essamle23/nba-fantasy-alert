@@ -11,7 +11,7 @@ from . import digest
 from .models import CATEGORIES, Alert
 from .sources import breakouts, espn, nba_report, rotowire
 from .state import State
-from .telegram import Telegram, chunk, esc, format_alert
+from .telegram import Telegram, chunk, esc, format_alert, tag
 
 log = logging.getLogger("bot")
 
@@ -68,7 +68,8 @@ def publish(tg: Telegram, state: State, alerts: list[Alert]) -> None:
             tg.send(format_alert(a))
     if report:
         when = report[0].extra.get("report_time", "")
-        header = f'📋 <b>Official NBA Injury Report</b> · {esc(when)} · <a href="{esc(report[0].url)}">PDF</a>'
+        header = tag("report", f"{esc(when.split(' ', 1)[-1].lstrip('0'))} ET update",
+                     f'<a href="{esc(report[0].url)}">PDF</a>')
         lines = [f"{CATEGORIES[a.category][0]} <b>{esc(a.player)}</b> — {esc(a.headline)}" for a in report]
         for msg in chunk(lines, header):
             tg.send(msg)
