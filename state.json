@@ -1,0 +1,2091 @@
+{
+ "breakouts": {
+  "_seeded": true,
+  "done": [
+   "401909088",
+   "401909089",
+   "401909090",
+   "401909835",
+   "401909834",
+   "401909836",
+   "401909091",
+   "401909837",
+   "401909838",
+   "401909839",
+   "401909840",
+   "401909841",
+   "401909092",
+   "401909842",
+   "401909093",
+   "401909094",
+   "401909848",
+   "401909843",
+   "401909845",
+   "401909846",
+   "401909095",
+   "401909844",
+   "401909847",
+   "401909849",
+   "401909096",
+   "401909851",
+   "401909852",
+   "401909850",
+   "401909853",
+   "401909855",
+   "401909854",
+   "401909858",
+   "401909857",
+   "401909856",
+   "401909859",
+   "401909860",
+   "401909861",
+   "401909862",
+   "401909865",
+   "401909864",
+   "401909863",
+   "401909866",
+   "401909867",
+   "401909868",
+   "401909869",
+   "401909870",
+   "401909871",
+   "401909873",
+   "401909872",
+   "401909874",
+   "401909875",
+   "401909876",
+   "401909879",
+   "401909877",
+   "401909878",
+   "401909880",
+   "401909881",
+   "401909882",
+   "401909883",
+   "401909884",
+   "401909885",
+   "401909889",
+   "401909887",
+   "401909886",
+   "401909888",
+   "401909890",
+   "401909891",
+   "401909892",
+   "401909894",
+   "401909893",
+   "401909895",
+   "401909277",
+   "401909279",
+   "401909280",
+   "401909278",
+   "401909281",
+   "401909284",
+   "401909282",
+   "401909283",
+   "401909286",
+   "401909285"
+  ],
+  "recent": [
+   {
+    "espn_id": "4903027",
+    "fp": 39.6,
+    "key_out": [],
+    "line": "17 pts, 8 reb, 4 ast, 3 stl, 3 3PM in 27 min",
+    "player": "Cedric Coward",
+    "pos": "SF/SG",
+    "rank": 134,
+    "score": "MEM 124 \u2013 POR 103",
+    "sleeper_id": "4748",
+    "started": true,
+    "team": "MEM",
+    "tier": "WATCH",
+    "ts": 1793334121.4659133
+   },
+   {
+    "espn_id": "4433249",
+    "fp": 30.9,
+    "key_out": [
+     "Kon Knueppel",
+     "Coby White"
+    ],
+    "line": "10 pts, 12 reb, 1 ast, 2 stl in 31 min",
+    "player": "Moussa Diabate",
+    "pos": "C",
+    "rank": 186,
+    "score": "CHA 79 \u2013 WSH 95",
+    "sleeper_id": "2474",
+    "started": true,
+    "team": "CHA",
+    "tier": "STRONG BUY",
+    "ts": 1793410416.1106467
+   },
+   {
+    "espn_id": "3032979",
+    "fp": 29.4,
+    "key_out": [
+     "Kon Knueppel",
+     "Coby White"
+    ],
+    "line": "8 pts, 2 reb, 8 ast, 3 stl in 29 min",
+    "player": "Dennis Schroder",
+    "pos": "PG/SG",
+    "rank": 189,
+    "score": "CHA 79 \u2013 WSH 95",
+    "sleeper_id": "1254",
+    "started": true,
+    "team": "CHA",
+    "tier": "STRONG BUY",
+    "ts": 1793410416.1106594
+   },
+   {
+    "espn_id": "4683771",
+    "fp": 37.6,
+    "key_out": [
+     "Jalen Duren"
+    ],
+    "line": "18 pts, 3 reb, 2 ast, 4 stl, 2 3PM in 22 min",
+    "player": "Ronald Holland II",
+    "pos": "PF/SF",
+    "rank": 228,
+    "score": "DET 110 \u2013 BKN 94",
+    "sleeper_id": "2836",
+    "started": false,
+    "team": "DET",
+    "tier": "BUY",
+    "ts": 1793411861.9519958
+   },
+   {
+    "espn_id": "3157465",
+    "fp": 33.8,
+    "key_out": [
+     "Jalen Duren"
+    ],
+    "line": "17 pts, 4 reb, 2 ast, 3 stl, 2 3PM in 26 min",
+    "player": "Duncan Robinson",
+    "pos": "SF/SG",
+    "rank": 433,
+    "score": "DET 110 \u2013 BKN 94",
+    "sleeper_id": "1961",
+    "started": true,
+    "team": "DET",
+    "tier": "STRONG BUY",
+    "ts": 1793411861.9520066
+   },
+   {
+    "espn_id": "4395626",
+    "fp": 36.8,
+    "key_out": [
+     "Nic Claxton"
+    ],
+    "line": "12 pts, 4 reb, 4 ast, 4 stl in 20 min",
+    "player": "Tre Jones",
+    "pos": "PG/SF/SG",
+    "rank": 251,
+    "score": "CHI 111 \u2013 BOS 125",
+    "sleeper_id": "2145",
+    "started": false,
+    "team": "CHI",
+    "tier": "BUY",
+    "ts": 1793412586.9491227
+   },
+   {
+    "espn_id": "4712849",
+    "fp": 41.2,
+    "key_out": [
+     "Paolo Banchero",
+     "Jalen Suggs"
+    ],
+    "line": "17 pts, 6 reb, 10 ast, 3 3PM in 31 min",
+    "player": "Anthony Black",
+    "pos": "PG/SF/SG",
+    "rank": 163,
+    "score": "ORL 121 \u2013 TOR 114",
+    "sleeper_id": "2590",
+    "started": true,
+    "team": "ORL",
+    "tier": "STRONG BUY",
+    "ts": 1793412587.1183658
+   },
+   {
+    "espn_id": "4277847",
+    "fp": 33.9,
+    "key_out": [
+     "Paolo Banchero",
+     "Jalen Suggs"
+    ],
+    "line": "20 pts, 7 reb, 1 ast, 2 stl in 39 min",
+    "player": "Wendell Carter Jr.",
+    "pos": "C",
+    "rank": 182,
+    "score": "ORL 121 \u2013 TOR 114",
+    "sleeper_id": "1883",
+    "started": true,
+    "team": "ORL",
+    "tier": "STRONG BUY",
+    "ts": 1793412587.1183717
+   },
+   {
+    "espn_id": "4432170",
+    "fp": 44.4,
+    "key_out": [
+     "Brandon Ingram"
+    ],
+    "line": "10 pts, 7 reb, 4 ast, 3 stl, 4 blk in 22 min",
+    "player": "Isaiah Jackson",
+    "pos": "C",
+    "rank": 352,
+    "score": "LAC 101 \u2013 MIN 127",
+    "sleeper_id": "2260",
+    "started": true,
+    "team": "LAC",
+    "tier": "STRONG BUY",
+    "ts": 1793413495.2766545
+   },
+   {
+    "espn_id": "4592492",
+    "fp": 33.0,
+    "key_out": [
+     "Anthony Edwards",
+     "Donte DiVincenzo"
+    ],
+    "line": "19 pts, 0 reb, 8 ast, 3 3PM in 20 min",
+    "player": "Bones Hyland",
+    "pos": "PG/SG",
+    "rank": 579,
+    "score": "LAC 101 \u2013 MIN 127",
+    "sleeper_id": "2303",
+    "started": false,
+    "team": "MIN",
+    "tier": "BUY",
+    "ts": 1793413495.2766619
+   },
+   {
+    "espn_id": "4278053",
+    "fp": 38.7,
+    "key_out": [],
+    "line": "15 pts, 6 reb, 11 ast, 3 3PM in 35 min",
+    "player": "Davion Mitchell",
+    "pos": "PG",
+    "rank": 231,
+    "score": "IND 125 \u2013 MIA 145",
+    "sleeper_id": "2301",
+    "started": true,
+    "team": "MIA",
+    "tier": "WATCH",
+    "ts": 1793414400.5713456
+   },
+   {
+    "espn_id": "4592829",
+    "fp": 34.1,
+    "key_out": [
+     "Ivica Zubac"
+    ],
+    "line": "24 pts, 3 reb, 1 ast, 2 stl, 2 3PM in 24 min",
+    "player": "Quenton Jackson",
+    "pos": "PG/SG",
+    "rank": 563,
+    "score": "IND 125 \u2013 MIA 145",
+    "sleeper_id": "2521",
+    "started": false,
+    "team": "IND",
+    "tier": "BUY",
+    "ts": 1793414400.5713527
+   },
+   {
+    "espn_id": "5106060",
+    "fp": 28.2,
+    "key_out": [
+     "Ivica Zubac"
+    ],
+    "line": "14 pts, 6 reb, 4 ast, 3 3PM in 28 min",
+    "player": "Jarace Walker",
+    "pos": "PF/SF",
+    "rank": 329,
+    "score": "IND 125 \u2013 MIA 145",
+    "sleeper_id": "2563",
+    "started": false,
+    "team": "IND",
+    "tier": "BUY",
+    "ts": 1793414400.5713587
+   },
+   {
+    "espn_id": "3102529",
+    "fp": 37.7,
+    "key_out": [
+     "Alperen Sengun",
+     "Reed Sheppard"
+    ],
+    "line": "5 pts, 11 reb, 5 ast, 2 stl, 2 blk in 30 min",
+    "player": "Clint Capela",
+    "pos": "C",
+    "rank": 365,
+    "score": "HOU 111 \u2013 DAL 116",
+    "sleeper_id": "1541",
+    "started": true,
+    "team": "HOU",
+    "tier": "STRONG BUY",
+    "ts": 1793414767.7328591
+   },
+   {
+    "espn_id": "2991230",
+    "fp": 34.0,
+    "key_out": [
+     "Alperen Sengun",
+     "Reed Sheppard"
+    ],
+    "line": "16 pts, 5 reb, 6 ast, 3 3PM in 33 min",
+    "player": "Fred VanVleet",
+    "pos": "PG",
+    "rank": 153,
+    "score": "HOU 111 \u2013 DAL 116",
+    "sleeper_id": "1717",
+    "started": true,
+    "team": "HOU",
+    "tier": "STRONG BUY",
+    "ts": 1793414767.7328687
+   },
+   {
+    "espn_id": "5211175",
+    "fp": 33.7,
+    "key_out": [
+     "Santi Aldama",
+     "Dereck Lively II"
+    ],
+    "line": "12 pts, 6 reb, 3 ast, 3 stl, 3 3PM in 28 min",
+    "player": "Zaccharie Risacher",
+    "pos": "SF",
+    "rank": 222,
+    "score": "HOU 111 \u2013 DAL 116",
+    "sleeper_id": "2737",
+    "started": false,
+    "team": "DAL",
+    "tier": "BUY",
+    "ts": 1793414767.7328732
+   },
+   {
+    "espn_id": "4278049",
+    "fp": 32.4,
+    "key_out": [
+     "Santi Aldama",
+     "Dereck Lively II"
+    ],
+    "line": "18 pts, 7 reb, 2 ast, 2 blk in 29 min",
+    "player": "Daniel Gafford",
+    "pos": "C",
+    "rank": 158,
+    "score": "HOU 111 \u2013 DAL 116",
+    "sleeper_id": "1997",
+    "started": true,
+    "team": "DAL",
+    "tier": "STRONG BUY",
+    "ts": 1793414767.7328768
+   },
+   {
+    "espn_id": "4278585",
+    "fp": 47.6,
+    "key_out": [
+     "Mark Williams"
+    ],
+    "line": "16 pts, 3 reb, 10 ast, 4 stl, 4 3PM in 33 min",
+    "player": "Collin Gillespie",
+    "pos": "PG/SG",
+    "rank": 233,
+    "score": "DEN 127 \u2013 PHX 120",
+    "sleeper_id": "2422",
+    "started": false,
+    "team": "PHX",
+    "tier": "STRONG BUY",
+    "ts": 1793421267.5335345
+   },
+   {
+    "espn_id": "4278402",
+    "fp": 30.5,
+    "key_out": [
+     "Mark Williams"
+    ],
+    "line": "11 pts, 5 reb, 5 ast, 2 stl, 3 3PM in 25 min",
+    "player": "Jordan Goodwin",
+    "pos": "SF/SG",
+    "rank": 275,
+    "score": "DEN 127 \u2013 PHX 120",
+    "sleeper_id": "2341",
+    "started": false,
+    "team": "PHX",
+    "tier": "BUY",
+    "ts": 1793421267.533541
+   },
+   {
+    "espn_id": "3155526",
+    "fp": 28.2,
+    "key_out": [
+     "Mark Williams"
+    ],
+    "line": "22 pts, 1 reb, 2 ast, 4 3PM in 21 min",
+    "player": "Dillon Brooks",
+    "pos": "PF/SF/SG",
+    "rank": 144,
+    "score": "DEN 127 \u2013 PHX 120",
+    "sleeper_id": "1792",
+    "started": true,
+    "team": "PHX",
+    "tier": "STRONG BUY",
+    "ts": 1793421267.533546
+   },
+   {
+    "espn_id": "4066436",
+    "fp": 31.5,
+    "key_out": [
+     "Jimmy Butler III",
+     "Kristaps Porzingis"
+    ],
+    "line": "16 pts, 5 reb, 3 ast, 2 stl, 4 3PM in 21 min",
+    "player": "De'Anthony Melton",
+    "pos": "PG/SG",
+    "rank": 181,
+    "score": "LAL 95 \u2013 GS 112",
+    "sleeper_id": "1972",
+    "started": false,
+    "team": "GS",
+    "tier": "BUY",
+    "ts": 1793422355.7617104
+   },
+   {
+    "espn_id": "6589",
+    "fp": 31.3,
+    "key_out": [
+     "Jimmy Butler III",
+     "Kristaps Porzingis"
+    ],
+    "line": "2 pts, 4 reb, 9 ast, 3 stl in 32 min",
+    "player": "Draymond Green",
+    "pos": "C/PF",
+    "rank": 145,
+    "score": "LAL 95 \u2013 GS 112",
+    "sleeper_id": "1082",
+    "started": true,
+    "team": "GS",
+    "tier": "STRONG BUY",
+    "ts": 1793422355.7617178
+   }
+  ]
+ },
+ "digest": {
+  "last": "2026-10-31",
+  "snapshot": {
+   "aaron nesmith": {
+    "date": "2026-10-29T21:07Z",
+    "player": "Aaron Nesmith",
+    "rank": 149,
+    "status": "Day-To-Day",
+    "team": "IND"
+   },
+   "alex caruso": {
+    "date": "2026-10-28T18:06Z",
+    "player": "Alex Caruso",
+    "rank": 193,
+    "status": "Out",
+    "team": "OKC"
+   },
+   "alperen sengun": {
+    "date": "2026-10-29T20:34Z",
+    "player": "Alperen Sengun",
+    "rank": 10,
+    "status": "Day-To-Day",
+    "team": "HOU"
+   },
+   "andrew nembhard": {
+    "date": "2026-10-29T21:08Z",
+    "player": "Andrew Nembhard",
+    "rank": 96,
+    "status": "Day-To-Day",
+    "team": "IND"
+   },
+   "anthony edwards": {
+    "date": "2026-10-29T18:33Z",
+    "player": "Anthony Edwards",
+    "rank": 6,
+    "status": "Out",
+    "team": "MIN"
+   },
+   "bradley beal": {
+    "date": "2026-10-15T01:03Z",
+    "player": "Bradley Beal",
+    "rank": 175,
+    "status": "Out",
+    "team": "LAC"
+   },
+   "brandon ingram": {
+    "date": "2026-10-29T01:00Z",
+    "player": "Brandon Ingram",
+    "rank": 68,
+    "status": "Out",
+    "team": "LAC"
+   },
+   "cameron johnson": {
+    "date": "2026-10-30T18:41Z",
+    "player": "Cameron Johnson",
+    "rank": 123,
+    "status": "Out",
+    "team": "DEN"
+   },
+   "cason wallace": {
+    "date": "2026-10-26T22:05Z",
+    "player": "Cason Wallace",
+    "rank": 164,
+    "status": "Out",
+    "team": "OKC"
+   },
+   "chet holmgren": {
+    "date": "2026-10-29T04:41Z",
+    "player": "Chet Holmgren",
+    "rank": 29,
+    "status": "Day-To-Day",
+    "team": "OKC"
+   },
+   "coby white": {
+    "date": "2026-10-26T22:41Z",
+    "player": "Coby White",
+    "rank": 81,
+    "status": "Out",
+    "team": "CHA"
+   },
+   "dennis schroder": {
+    "date": "2026-10-30T15:34Z",
+    "player": "Dennis Schroder",
+    "rank": 189,
+    "status": "Day-To-Day",
+    "team": "CHA"
+   },
+   "dereck lively": {
+    "date": "2026-10-22T20:10Z",
+    "player": "Dereck Lively II",
+    "rank": 138,
+    "status": "Out",
+    "team": "DAL"
+   },
+   "donte divincenzo": {
+    "date": "2026-10-05T20:53Z",
+    "player": "Donte DiVincenzo",
+    "rank": 129,
+    "status": "Out",
+    "team": "MIN"
+   },
+   "egor demin": {
+    "date": "2026-10-29T17:09Z",
+    "player": "Egor Demin",
+    "rank": 179,
+    "status": "Out",
+    "team": "BKN"
+   },
+   "ivica zubac": {
+    "date": "2026-10-29T21:04Z",
+    "player": "Ivica Zubac",
+    "rank": 41,
+    "status": "Out",
+    "team": "IND"
+   },
+   "ja morant": {
+    "date": "2026-10-30T18:45Z",
+    "player": "Ja Morant",
+    "rank": 47,
+    "status": "Out",
+    "team": "POR"
+   },
+   "jalen duren": {
+    "date": "2026-10-25T14:56Z",
+    "player": "Jalen Duren",
+    "rank": 48,
+    "status": "Out",
+    "team": "DET"
+   },
+   "jalen suggs": {
+    "date": "2026-10-26T18:44Z",
+    "player": "Jalen Suggs",
+    "rank": 98,
+    "status": "Out",
+    "team": "ORL"
+   },
+   "jalen williams": {
+    "date": "2026-10-28T23:41Z",
+    "player": "Jalen Williams",
+    "rank": 23,
+    "status": "Out",
+    "team": "OKC"
+   },
+   "jaren jackson": {
+    "date": "2026-10-27T19:25Z",
+    "player": "Jaren Jackson Jr.",
+    "rank": 40,
+    "status": "Out",
+    "team": "UTA"
+   },
+   "jaylen brown": {
+    "date": "2026-10-30T20:23Z",
+    "player": "Jaylen Brown",
+    "rank": 31,
+    "status": "Day-To-Day",
+    "team": "PHI"
+   },
+   "jimmy butler": {
+    "date": "2026-10-16T16:11Z",
+    "player": "Jimmy Butler III",
+    "rank": 67,
+    "status": "Out",
+    "team": "GSW"
+   },
+   "jordan poole": {
+    "date": "2026-10-30T21:25Z",
+    "player": "Jordan Poole",
+    "rank": 142,
+    "status": "Out",
+    "team": "NOP"
+   },
+   "justin champagnie": {
+    "date": "2026-10-28T18:38Z",
+    "player": "Justin Champagnie",
+    "rank": 199,
+    "status": "Out",
+    "team": "WAS"
+   },
+   "jusuf nurkic": {
+    "date": "2026-10-07T23:07Z",
+    "player": "Jusuf Nurkic",
+    "rank": 172,
+    "status": "Out",
+    "team": "UTA"
+   },
+   "karlanthony towns": {
+    "date": "2026-10-30T20:33Z",
+    "player": "Karl-Anthony Towns",
+    "rank": 9,
+    "status": "Day-To-Day",
+    "team": "NYK"
+   },
+   "kawhi leonard": {
+    "date": "2026-10-29T15:39Z",
+    "player": "Kawhi Leonard",
+    "rank": 43,
+    "status": "Out",
+    "team": "TOR"
+   },
+   "keegan murray": {
+    "date": "2026-10-26T22:01Z",
+    "player": "Keegan Murray",
+    "rank": 102,
+    "status": "Out",
+    "team": "SAC"
+   },
+   "kon knueppel": {
+    "date": "2026-10-30T15:12Z",
+    "player": "Kon Knueppel",
+    "rank": 70,
+    "status": "Out",
+    "team": "CHA"
+   },
+   "kristaps porzingis": {
+    "date": "2026-10-28T14:25Z",
+    "player": "Kristaps Porzingis",
+    "rank": 88,
+    "status": "Out",
+    "team": "GSW"
+   },
+   "lauri markkanen": {
+    "date": "2026-10-29T04:39Z",
+    "player": "Lauri Markkanen",
+    "rank": 51,
+    "status": "Day-To-Day",
+    "team": "UTA"
+   },
+   "mark williams": {
+    "date": "2026-09-11T16:03Z",
+    "player": "Mark Williams",
+    "rank": 124,
+    "status": "Out",
+    "team": "PHX"
+   },
+   "maxime raynaud": {
+    "date": "2026-10-26T22:07Z",
+    "player": "Maxime Raynaud",
+    "rank": 169,
+    "status": "Out",
+    "team": "SAC"
+   },
+   "nic claxton": {
+    "date": "2026-10-26T22:20Z",
+    "player": "Nic Claxton",
+    "rank": 103,
+    "status": "Out",
+    "team": "CHI"
+   },
+   "paolo banchero": {
+    "date": "2026-10-24T16:47Z",
+    "player": "Paolo Banchero",
+    "rank": 28,
+    "status": "Out",
+    "team": "ORL"
+   },
+   "reed sheppard": {
+    "date": "2026-10-30T19:19Z",
+    "player": "Reed Sheppard",
+    "rank": 109,
+    "status": "Out",
+    "team": "HOU"
+   },
+   "robert williams": {
+    "date": "2026-10-30T04:23Z",
+    "player": "Robert Williams III",
+    "rank": 151,
+    "status": "Day-To-Day",
+    "team": "POR"
+   },
+   "rui hachimura": {
+    "date": "2026-10-30T18:00Z",
+    "player": "Rui Hachimura",
+    "rank": 173,
+    "status": "Day-To-Day",
+    "team": "LAC"
+   },
+   "santi aldama": {
+    "date": "2026-10-29T22:07Z",
+    "player": "Santi Aldama",
+    "rank": 120,
+    "status": "Out",
+    "team": "DAL"
+   },
+   "shaedon sharpe": {
+    "date": "2026-08-24T20:23Z",
+    "player": "Shaedon Sharpe",
+    "rank": 99,
+    "status": "Out",
+    "team": "POR"
+   },
+   "tobias harris": {
+    "date": "2026-10-28T18:24Z",
+    "player": "Tobias Harris",
+    "rank": 135,
+    "status": "Out",
+    "team": "SAS"
+   },
+   "tre johnson": {
+    "date": "2026-10-29T21:10Z",
+    "player": "Tre Johnson",
+    "rank": 197,
+    "status": "Day-To-Day",
+    "team": "WAS"
+   },
+   "tyrese haliburton": {
+    "date": "2026-10-28T21:30Z",
+    "player": "Tyrese Haliburton",
+    "rank": 17,
+    "status": "Out",
+    "team": "IND"
+   }
+  }
+ },
+ "espn": {
+  "_seeded": true,
+  "missing": {},
+  "players": {
+   "1966": {
+    "player": "LeBron James",
+    "status": "Day-To-Day",
+    "team": "Philadelphia 76ers",
+    "url": "https://www.espn.com/nba/player/_/id/1966/lebron-james"
+   },
+   "2530530": {
+    "player": "T.J. McConnell",
+    "status": "Out",
+    "team": "Indiana Pacers",
+    "url": "https://www.espn.com/nba/player/_/id/2530530/tj-mcconnell"
+   },
+   "2991235": {
+    "player": "Steven Adams",
+    "status": "Out",
+    "team": "Houston Rockets",
+    "url": "https://www.espn.com/nba/player/_/id/2991235/steven-adams"
+   },
+   "2991350": {
+    "player": "Alex Caruso",
+    "status": "Out",
+    "team": "Oklahoma City Thunder",
+    "url": "https://www.espn.com/nba/player/_/id/2991350/alex-caruso"
+   },
+   "3059318": {
+    "player": "Joel Embiid",
+    "status": "Day-To-Day",
+    "team": "Philadelphia 76ers",
+    "url": "https://www.espn.com/nba/player/_/id/3059318/joel-embiid"
+   },
+   "3102530": {
+    "player": "Jusuf Nurkic",
+    "status": "Out",
+    "team": "Utah Jazz",
+    "url": "https://www.espn.com/nba/player/_/id/3102530/jusuf-nurkic"
+   },
+   "3102531": {
+    "player": "Kristaps Porzingis",
+    "status": "Out",
+    "team": "Golden State Warriors",
+    "url": "https://www.espn.com/nba/player/_/id/3102531/kristaps-porzingis"
+   },
+   "3904625": {
+    "player": "Tacko Fall",
+    "status": "Out",
+    "team": "Philadelphia 76ers",
+    "url": "https://www.espn.com/nba/player/_/id/3904625/tacko-fall"
+   },
+   "3907387": {
+    "player": "Ben Simmons",
+    "status": "Out",
+    "team": "Sacramento Kings",
+    "url": "https://www.espn.com/nba/player/_/id/3907387/ben-simmons"
+   },
+   "3913176": {
+    "player": "Brandon Ingram",
+    "status": "Out",
+    "team": "LA Clippers",
+    "url": "https://www.espn.com/nba/player/_/id/3913176/brandon-ingram"
+   },
+   "3917376": {
+    "player": "Jaylen Brown",
+    "status": "Day-To-Day",
+    "team": "Philadelphia 76ers",
+    "url": "https://www.espn.com/nba/player/_/id/3917376/jaylen-brown"
+   },
+   "3934673": {
+    "player": "Donte DiVincenzo",
+    "status": "Out",
+    "team": "Minnesota Timberwolves",
+    "url": "https://www.espn.com/nba/player/_/id/3934673/donte-divincenzo"
+   },
+   "4017837": {
+    "player": "Ivica Zubac",
+    "status": "Out",
+    "team": "Indiana Pacers",
+    "url": "https://www.espn.com/nba/player/_/id/4017837/ivica-zubac"
+   },
+   "4065654": {
+    "player": "Jonathan Isaac",
+    "status": "Out",
+    "team": "Orlando Magic",
+    "url": "https://www.espn.com/nba/player/_/id/4065654/jonathan-isaac"
+   },
+   "4065733": {
+    "player": "Ty Jerome",
+    "status": "Day-To-Day",
+    "team": "Memphis Grizzlies",
+    "url": "https://www.espn.com/nba/player/_/id/4065733/ty-jerome"
+   },
+   "4065778": {
+    "player": "Max Strus",
+    "status": "Out",
+    "team": "LA Clippers",
+    "url": "https://www.espn.com/nba/player/_/id/4065778/max-strus"
+   },
+   "4065813": {
+    "player": "Alpha Diallo",
+    "status": "Out",
+    "team": "Denver Nuggets",
+    "url": "https://www.espn.com/nba/player/_/id/4065813/alpha-diallo"
+   },
+   "4066211": {
+    "player": "Robert Williams III",
+    "status": "Day-To-Day",
+    "team": "Portland Trail Blazers",
+    "url": "https://www.espn.com/nba/player/_/id/4066211/robert-williams-iii"
+   },
+   "4066218": {
+    "player": "Grant Williams",
+    "status": "Out",
+    "team": "Charlotte Hornets",
+    "url": "https://www.espn.com/nba/player/_/id/4066218/grant-williams"
+   },
+   "4066336": {
+    "player": "Lauri Markkanen",
+    "status": "Day-To-Day",
+    "team": "Utah Jazz",
+    "url": "https://www.espn.com/nba/player/_/id/4066336/lauri-markkanen"
+   },
+   "4277869": {
+    "player": "Jose Alvarado",
+    "status": "Out",
+    "team": "New York Knicks",
+    "url": "https://www.espn.com/nba/player/_/id/4277869/jose-alvarado"
+   },
+   "4277956": {
+    "player": "Jordan Poole",
+    "status": "Out",
+    "team": "New Orleans Pelicans",
+    "url": "https://www.espn.com/nba/player/_/id/4277956/jordan-poole"
+   },
+   "4277961": {
+    "player": "Jaren Jackson Jr.",
+    "status": "Out",
+    "team": "Utah Jazz",
+    "url": "https://www.espn.com/nba/player/_/id/4277961/jaren-jackson-jr"
+   },
+   "4278067": {
+    "player": "Nic Claxton",
+    "status": "Out",
+    "team": "Chicago Bulls",
+    "url": "https://www.espn.com/nba/player/_/id/4278067/nic-claxton"
+   },
+   "4278355": {
+    "player": "Obi Toppin",
+    "status": "Day-To-Day",
+    "team": "Indiana Pacers",
+    "url": "https://www.espn.com/nba/player/_/id/4278355/obi-toppin"
+   },
+   "4279888": {
+    "player": "Ja Morant",
+    "status": "Out",
+    "team": "Portland Trail Blazers",
+    "url": "https://www.espn.com/nba/player/_/id/4279888/ja-morant"
+   },
+   "4395651": {
+    "player": "Coby White",
+    "status": "Out",
+    "team": "Charlotte Hornets",
+    "url": "https://www.espn.com/nba/player/_/id/4395651/coby-white"
+   },
+   "4395702": {
+    "player": "Isaiah Joe",
+    "status": "Out",
+    "team": "Detroit Pistons",
+    "url": "https://www.espn.com/nba/player/_/id/4395702/isaiah-joe"
+   },
+   "4396818": {
+    "player": "Jordan Miller",
+    "status": "Out",
+    "team": "LA Clippers",
+    "url": "https://www.espn.com/nba/player/_/id/4396818/jordan-miller"
+   },
+   "4396993": {
+    "player": "Tyrese Haliburton",
+    "status": "Out",
+    "team": "Indiana Pacers",
+    "url": "https://www.espn.com/nba/player/_/id/4396993/tyrese-haliburton"
+   },
+   "4431785": {
+    "player": "Scotty Pippen Jr.",
+    "status": "Day-To-Day",
+    "team": "Memphis Grizzlies",
+    "url": "https://www.espn.com/nba/player/_/id/4431785/scotty-pippen-jr"
+   },
+   "4432165": {
+    "player": "Jalen Suggs",
+    "status": "Out",
+    "team": "Orlando Magic",
+    "url": "https://www.espn.com/nba/player/_/id/4432165/jalen-suggs"
+   },
+   "4432171": {
+    "player": "Moses Moody",
+    "status": "Out",
+    "team": "Golden State Warriors",
+    "url": "https://www.espn.com/nba/player/_/id/4432171/moses-moody"
+   },
+   "4432181": {
+    "player": "Julian Strawther",
+    "status": "Out",
+    "team": "Denver Nuggets",
+    "url": "https://www.espn.com/nba/player/_/id/4432181/julian-strawther"
+   },
+   "4432446": {
+    "player": "Jabari Walker",
+    "status": "Out",
+    "team": "Philadelphia 76ers",
+    "url": "https://www.espn.com/nba/player/_/id/4432446/jabari-walker"
+   },
+   "4432573": {
+    "player": "Paolo Banchero",
+    "status": "Out",
+    "team": "Orlando Magic",
+    "url": "https://www.espn.com/nba/player/_/id/4432573/paolo-banchero"
+   },
+   "4432586": {
+    "player": "Nate Bittle",
+    "status": "Out",
+    "team": "Toronto Raptors",
+    "url": "https://www.espn.com/nba/player/_/id/4432586/nate-bittle"
+   },
+   "4432907": {
+    "player": "Justin Champagnie",
+    "status": "Out",
+    "team": "Washington Wizards",
+    "url": "https://www.espn.com/nba/player/_/id/4432907/justin-champagnie"
+   },
+   "4433076": {
+    "player": "Ben Sheppard",
+    "status": "Out",
+    "team": "Indiana Pacers",
+    "url": "https://www.espn.com/nba/player/_/id/4433076/ben-sheppard"
+   },
+   "4433137": {
+    "player": "Ziaire Williams",
+    "status": "Day-To-Day",
+    "team": "Los Angeles Lakers",
+    "url": "https://www.espn.com/nba/player/_/id/4433137/ziaire-williams"
+   },
+   "4433174": {
+    "player": "Dylan Cardwell",
+    "status": "Out",
+    "team": "Sacramento Kings",
+    "url": "https://www.espn.com/nba/player/_/id/4433174/dylan-cardwell"
+   },
+   "4433188": {
+    "player": "Devin Carter",
+    "status": "Out",
+    "team": "Boston Celtics",
+    "url": "https://www.espn.com/nba/player/_/id/4433188/devin-carter"
+   },
+   "4433255": {
+    "player": "Chet Holmgren",
+    "status": "Out",
+    "team": "Oklahoma City Thunder",
+    "url": "https://www.espn.com/nba/player/_/id/4433255/chet-holmgren"
+   },
+   "4433268": {
+    "player": "Trey Alexander",
+    "status": "Out",
+    "team": "Utah Jazz",
+    "url": "https://www.espn.com/nba/player/_/id/4433268/trey-alexander"
+   },
+   "4433621": {
+    "player": "Jalen Duren",
+    "status": "Out",
+    "team": "Detroit Pistons",
+    "url": "https://www.espn.com/nba/player/_/id/4433621/jalen-duren"
+   },
+   "4592427": {
+    "player": "Spencer Jones",
+    "status": "Out",
+    "team": "Denver Nuggets",
+    "url": "https://www.espn.com/nba/player/_/id/4592427/spencer-jones"
+   },
+   "4593016": {
+    "player": "Quinten Post",
+    "status": "Day-To-Day",
+    "team": "Memphis Grizzlies",
+    "url": "https://www.espn.com/nba/player/_/id/4593016/quinten-post"
+   },
+   "4593125": {
+    "player": "Santi Aldama",
+    "status": "Out",
+    "team": "Dallas Mavericks",
+    "url": "https://www.espn.com/nba/player/_/id/4593125/santi-aldama"
+   },
+   "4593803": {
+    "player": "Jalen Williams",
+    "status": "Out",
+    "team": "Oklahoma City Thunder",
+    "url": "https://www.espn.com/nba/player/_/id/4593803/jalen-williams"
+   },
+   "4594268": {
+    "player": "Anthony Edwards",
+    "status": "Out",
+    "team": "Minnesota Timberwolves",
+    "url": "https://www.espn.com/nba/player/_/id/4594268/anthony-edwards"
+   },
+   "4594327": {
+    "player": "Keegan Murray",
+    "status": "Out",
+    "team": "Sacramento Kings",
+    "url": "https://www.espn.com/nba/player/_/id/4594327/keegan-murray"
+   },
+   "4606840": {
+    "player": "Jamir Watkins",
+    "status": "Out",
+    "team": "Washington Wizards",
+    "url": "https://www.espn.com/nba/player/_/id/4606840/jamir-watkins"
+   },
+   "4683688": {
+    "player": "Dereck Lively II",
+    "status": "Out",
+    "team": "Dallas Mavericks",
+    "url": "https://www.espn.com/nba/player/_/id/4683688/dereck-lively-ii"
+   },
+   "4683692": {
+    "player": "Cason Wallace",
+    "status": "Out",
+    "team": "Oklahoma City Thunder",
+    "url": "https://www.espn.com/nba/player/_/id/4683692/cason-wallace"
+   },
+   "4683747": {
+    "player": "Jaylon Tyson",
+    "status": "Out",
+    "team": "Cleveland Cavaliers",
+    "url": "https://www.espn.com/nba/player/_/id/4683747/jaylon-tyson"
+   },
+   "4684269": {
+    "player": "Kylan Boswell",
+    "status": "Out",
+    "team": "Charlotte Hornets",
+    "url": "https://www.espn.com/nba/player/_/id/4684269/kylan-boswell"
+   },
+   "4701232": {
+    "player": "Mark Williams",
+    "status": "Out",
+    "team": "Phoenix Suns",
+    "url": "https://www.espn.com/nba/player/_/id/4701232/mark-williams"
+   },
+   "4706557": {
+    "player": "Chris Youngblood",
+    "status": "Out",
+    "team": "Portland Trail Blazers",
+    "url": "https://www.espn.com/nba/player/_/id/4706557/chris-youngblood"
+   },
+   "4711272": {
+    "player": "Reed Sheppard",
+    "status": "Day-To-Day",
+    "team": "Houston Rockets",
+    "url": "https://www.espn.com/nba/player/_/id/4711272/reed-sheppard"
+   },
+   "4712863": {
+    "player": "Mouhamed Gueye",
+    "status": "Out",
+    "team": "Atlanta Hawks",
+    "url": "https://www.espn.com/nba/player/_/id/4712863/mouhamed-gueye"
+   },
+   "4848625": {
+    "player": "Dailyn Swain",
+    "status": "Day-To-Day",
+    "team": "Chicago Bulls",
+    "url": "https://www.espn.com/nba/player/_/id/4848625/dailyn-swain"
+   },
+   "4870562": {
+    "player": "Dominick Barlow",
+    "status": "Out",
+    "team": "Philadelphia 76ers",
+    "url": "https://www.espn.com/nba/player/_/id/4870562/dominick-barlow"
+   },
+   "4871141": {
+    "player": "Ariel Hukporti",
+    "status": "Out",
+    "team": "Philadelphia 76ers",
+    "url": "https://www.espn.com/nba/player/_/id/4871141/ariel-hukporti"
+   },
+   "4871144": {
+    "player": "Alperen Sengun",
+    "status": "Day-To-Day",
+    "team": "Houston Rockets",
+    "url": "https://www.espn.com/nba/player/_/id/4871144/alperen-sengun"
+   },
+   "4898371": {
+    "player": "Maxime Raynaud",
+    "status": "Out",
+    "team": "Sacramento Kings",
+    "url": "https://www.espn.com/nba/player/_/id/4898371/maxime-raynaud"
+   },
+   "4914336": {
+    "player": "Shaedon Sharpe",
+    "status": "Out",
+    "team": "Portland Trail Blazers",
+    "url": "https://www.espn.com/nba/player/_/id/4914336/shaedon-sharpe"
+   },
+   "4997537": {
+    "player": "Tristan Vukcevic",
+    "status": "Out",
+    "team": "Washington Wizards",
+    "url": "https://www.espn.com/nba/player/_/id/4997537/tristan-vukcevic"
+   },
+   "5041951": {
+    "player": "Meleek Thomas",
+    "status": "Day-To-Day",
+    "team": "Cleveland Cavaliers",
+    "url": "https://www.espn.com/nba/player/_/id/5041951/meleek-thomas"
+   },
+   "5060631": {
+    "player": "Adou Thiero",
+    "status": "Out",
+    "team": "Los Angeles Lakers",
+    "url": "https://www.espn.com/nba/player/_/id/5060631/adou-thiero"
+   },
+   "5061575": {
+    "player": "Kon Knueppel",
+    "status": "Out",
+    "team": "Charlotte Hornets",
+    "url": "https://www.espn.com/nba/player/_/id/5061575/kon-knueppel"
+   },
+   "5061589": {
+    "player": "Yves Missi",
+    "status": "Out",
+    "team": "New Orleans Pelicans",
+    "url": "https://www.espn.com/nba/player/_/id/5061589/yves-missi"
+   },
+   "5061603": {
+    "player": "Thomas Sorber",
+    "status": "Out",
+    "team": "Oklahoma City Thunder",
+    "url": "https://www.espn.com/nba/player/_/id/5061603/thomas-sorber"
+   },
+   "5101845": {
+    "player": "Jayden Quaintance",
+    "status": "Out",
+    "team": "San Antonio Spurs",
+    "url": "https://www.espn.com/nba/player/_/id/5101845/jayden-quaintance"
+   },
+   "5105571": {
+    "player": "Henri Veesaar",
+    "status": "Out",
+    "team": "Atlanta Hawks",
+    "url": "https://www.espn.com/nba/player/_/id/5105571/henri-veesaar"
+   },
+   "5105626": {
+    "player": "Tyler Bilodeau",
+    "status": "Out",
+    "team": "Brooklyn Nets",
+    "url": "https://www.espn.com/nba/player/_/id/5105626/tyler-bilodeau"
+   },
+   "5107251": {
+    "player": "Izaiyah Nelson",
+    "status": "Out",
+    "team": "Orlando Magic",
+    "url": "https://www.espn.com/nba/player/_/id/5107251/izaiyah-nelson"
+   },
+   "5108024": {
+    "player": "Yanic Konan Niederhauser",
+    "status": "Out",
+    "team": "LA Clippers",
+    "url": "https://www.espn.com/nba/player/_/id/5108024/yanic-konan-niederhauser"
+   },
+   "5148538": {
+    "player": "Tarik Biberovic",
+    "status": "Out",
+    "team": "Dallas Mavericks",
+    "url": "https://www.espn.com/nba/player/_/id/5148538/tarik-biberovic"
+   },
+   "5157066": {
+    "player": "Johnny Furphy",
+    "status": "Out",
+    "team": "Indiana Pacers",
+    "url": "https://www.espn.com/nba/player/_/id/5157066/johnny-furphy"
+   },
+   "5159925": {
+    "player": "Nikola Topic",
+    "status": "Out",
+    "team": "Oklahoma City Thunder",
+    "url": "https://www.espn.com/nba/player/_/id/5159925/nikola-topic"
+   },
+   "5175643": {
+    "player": "Egor Demin",
+    "status": "Out",
+    "team": "Brooklyn Nets",
+    "url": "https://www.espn.com/nba/player/_/id/5175643/egor-demin"
+   },
+   "5214637": {
+    "player": "Noah Penda",
+    "status": "Out",
+    "team": "Orlando Magic",
+    "url": "https://www.espn.com/nba/player/_/id/5214637/noah-penda"
+   },
+   "5279129": {
+    "player": "Sergio de Larrea",
+    "status": "Out",
+    "team": "Dallas Mavericks",
+    "url": "https://www.espn.com/nba/player/_/id/5279129/sergio-de-larrea"
+   },
+   "6430": {
+    "player": "Jimmy Butler III",
+    "status": "Out",
+    "team": "Golden State Warriors",
+    "url": "https://www.espn.com/nba/player/_/id/6430/jimmy-butler-iii"
+   },
+   "6440": {
+    "player": "Tobias Harris",
+    "status": "Out",
+    "team": "San Antonio Spurs",
+    "url": "https://www.espn.com/nba/player/_/id/6440/tobias-harris"
+   },
+   "6450": {
+    "player": "Kawhi Leonard",
+    "status": "Out",
+    "team": "Toronto Raptors",
+    "url": "https://www.espn.com/nba/player/_/id/6450/kawhi-leonard"
+   },
+   "6580": {
+    "player": "Bradley Beal",
+    "status": "Out",
+    "team": "LA Clippers",
+    "url": "https://www.espn.com/nba/player/_/id/6580/bradley-beal"
+   }
+  },
+  "v": 2
+ },
+ "nba_report": {
+  "_seeded": true,
+  "last_url": "https://ak-static.cms.nba.com/referee/injury/Injury-Report_2026-10-31_12_15PM.pdf",
+  "status": {
+   "AJ Dybantsa": "Available",
+   "Aaron Nesmith": "Available",
+   "Aaron Wiggins": "Available",
+   "Adem Bona": "Available",
+   "Adou Thiero": "Out",
+   "Ajay Mitchell": "Available",
+   "Al Horford": "Out",
+   "Alex Caruso": "Out",
+   "Alperen Sengun": "Out",
+   "Alpha Diallo": "Out",
+   "Andrew Nembhard": "Available",
+   "Anfernee Simons": "Available",
+   "Anthony Black": "Available",
+   "Anthony Edwards": "Out",
+   "Ariel Hukporti": "Out",
+   "Ausar Thompson": "Available",
+   "Ben Sheppard": "Out",
+   "Ben Simmons": "Out",
+   "Blake Hinson": "Out",
+   "Bradley Beal": "Out",
+   "Branden Carlson": "Available",
+   "Brandin Podziemski": "Out",
+   "Brandon Ingram": "Out",
+   "Brandon Williams": "Available",
+   "Caleb Martin": "Available",
+   "Cameron Carr": "Out",
+   "Cameron Johnson": "Available",
+   "Cason Wallace": "Out",
+   "Cedric Coward": "Available",
+   "Charles Bassey": "Available",
+   "Chet Holmgren": "Out",
+   "Chris Youngblood": "Questionable",
+   "Christian Anderson": "Available",
+   "Coby White": "Out",
+   "Collin Sexton": "Out",
+   "Cooper Flagg": "Available",
+   "Dailyn Swain": "Out",
+   "De'Aaron Fox": "Available",
+   "Dean Wade": "Available",
+   "Dejounte Murray": "Out",
+   "Deni Avdija": "Available",
+   "Dennis Schroder": "Probable",
+   "Dereck Lively II": "Out",
+   "Derrick White": "Available",
+   "Devin Carter": "Out",
+   "Dominick Barlow": "Out",
+   "Donte DiVincenzo": "Out",
+   "Draymond Green": "Out",
+   "Dru Smith": "Available",
+   "Dylan Cardwell": "Out",
+   "Egor Demin": "Out",
+   "Elijah Harkless": "Available",
+   "Felix Okpara": "Available",
+   "Fred VanVleet": "Out",
+   "Grant Williams": "Out",
+   "Gui Santos": "Available",
+   "Hansen Yang": "Available",
+   "Henri Veesaar": "Out",
+   "Isaac Okoro": "Available",
+   "Isaiah Joe": "Out",
+   "Isaiah Stewart": "Available",
+   "Ivica Zubac": "Out",
+   "Izaiyah Nelson": "Out",
+   "Ja Morant": "Out",
+   "Jabari Walker": "Out",
+   "Jake LaRavia": "Out",
+   "Jalen Duren": "Out",
+   "Jalen Slawson": "Available",
+   "Jalen Smith": "Available",
+   "Jalen Suggs": "Out",
+   "Jalen Williams": "Out",
+   "Jamir Watkins": "Out",
+   "Jaren Jackson Jr.": "Out",
+   "Jaron Pierre Jr.": "Available",
+   "Jarrett Allen": "Available",
+   "Jaxson Hayes": "Available",
+   "Jayden Quaintance": "Out",
+   "Jaylen Brown": "Out",
+   "Jaylon Tyson": "Out",
+   "Jett Howard": "Available",
+   "Jimmy Butler III": "Out",
+   "Jock Landale": "Available",
+   "Joel Embiid": "Out",
+   "Johnny Furphy": "Out",
+   "Jonathan Isaac": "Out",
+   "Jordan Hawkins": "Available",
+   "Jordan Miller": "Out",
+   "Jordan Poole": "Out",
+   "Jose Alvarado": "Out",
+   "Josh Giddey": "Available",
+   "Julian Phillips": "Available",
+   "Julian Strawther": "Out",
+   "Justin Champagnie": "Out",
+   "Jusuf Nurkic": "Out",
+   "Karim Lopez": "Available",
+   "Karim L\u00f3pez": "Out",
+   "Karl-Anthony Towns": "Available",
+   "Kawhi Leonard": "Out",
+   "Keegan Murray": "Out",
+   "Keldon Johnson": "Available",
+   "Khalifa Diop": "Out",
+   "Kobe Brown": "Available",
+   "Kon Knueppel": "Out",
+   "Kristaps Porzingis": "Out",
+   "Kylan Boswell": "Out",
+   "Kyrie Irving": "Available",
+   "Lauri Markkanen": "Questionable",
+   "LeBron James": "Out",
+   "Leonard Miller": "Available",
+   "Luka Doncic": "Out",
+   "Luke Kennard": "Available",
+   "Malachi Smith": "Available",
+   "Malik Dia": "Available",
+   "Malik Monk": "Available",
+   "Marcus Smart": "Available",
+   "Mark Williams": "Out",
+   "Max Christie": "Available",
+   "Max Strus": "Out",
+   "Maxime Raynaud": "Out",
+   "Meleek Thomas": "Questionable",
+   "Micah Potter": "Available",
+   "Mikel Brown Jr.": "Out",
+   "Morez Johnson Jr.": "Available",
+   "Moses Moody": "Out",
+   "Mouhamed Gueye": "Out",
+   "Myron Gardner": "Available",
+   "Nae'Qwan Tomlin": "Out",
+   "Naji Marshall": "Available",
+   "Nate Ament": "Available",
+   "Nate Bittle": "Out",
+   "Naz Reid": "Available",
+   "Nic Claxton": "Out",
+   "Nikola Topic": "Out",
+   "Noa Essengue": "Available",
+   "Noah Clowney": "Available",
+   "Noah Penda": "Out",
+   "Obi Toppin": "Out",
+   "Oso Ighodaro": "Available",
+   "Otega Oweh": "Available",
+   "Paolo Banchero": "Out",
+   "Patrick Williams": "Available",
+   "Pelle Larsson": "Available",
+   "Quinten Post": "Doubtful",
+   "Reed Sheppard": "Out",
+   "Robert Williams III": "Questionable",
+   "Rui Hachimura": "Available",
+   "Santi Aldama": "Out",
+   "Scoot Henderson": "Available",
+   "Scotty Pippen Jr.": "Questionable",
+   "Sergio de Larrea": "Out",
+   "Shaedon Sharpe": "Out",
+   "Simone Fontecchio": "Available",
+   "Spencer Jones": "Out",
+   "Stephen Curry": "Out",
+   "Steven Adams": "Out",
+   "T.J. McConnell": "Out",
+   "Tacko Fall": "Out",
+   "Tarik Biberovic": "Out",
+   "Taurean Prince": "Available",
+   "Thomas Sorber": "Out",
+   "Tobe Awaka": "Available",
+   "Tobias Harris": "Out",
+   "Tony Bradley": "Available",
+   "Tre Johnson": "Available",
+   "Trey Alexander": "Out",
+   "Tristan Vukcevic": "Out",
+   "Ty Jerome": "Questionable",
+   "Tyler Bilodeau": "Out",
+   "Tyrese Haliburton": "Out",
+   "VJ Edgecombe": "Out",
+   "Vladislav Goldin": "Available",
+   "Walker Kessler": "Available",
+   "Yanic Konan Niederhauser": "Out",
+   "Yaxel Lendeborg": "Available",
+   "Yves Missi": "Out",
+   "Zaccharie Risacher": "Available",
+   "Zach Collins": "Available",
+   "Zach Edey": "Out",
+   "Ziaire Williams": "Out",
+   "Zuby Ejiofor": "Available"
+  },
+  "upcoming": {
+   "Alex Caruso": {
+    "matchup": "OKC@HOU",
+    "status": "Out",
+    "team": "Oklahoma City Thunder",
+    "tip": "2026-10-31T20:30:00-04:00"
+   },
+   "Ben Simmons": {
+    "matchup": "SAC@MEM",
+    "status": "Out",
+    "team": "Sacramento Kings",
+    "tip": "2026-10-31T20:00:00-04:00"
+   },
+   "Cason Wallace": {
+    "matchup": "OKC@HOU",
+    "status": "Out",
+    "team": "Oklahoma City Thunder",
+    "tip": "2026-10-31T20:30:00-04:00"
+   },
+   "Chet Holmgren": {
+    "matchup": "OKC@HOU",
+    "status": "Out",
+    "team": "Oklahoma City Thunder",
+    "tip": "2026-10-31T20:30:00-04:00"
+   },
+   "Chris Youngblood": {
+    "matchup": "POR@UTA",
+    "status": "Questionable",
+    "team": "Portland Trail Blazers",
+    "tip": "2026-10-31T15:00:00-04:00"
+   },
+   "Dylan Cardwell": {
+    "matchup": "SAC@MEM",
+    "status": "Out",
+    "team": "Sacramento Kings",
+    "tip": "2026-10-31T20:00:00-04:00"
+   },
+   "Henri Veesaar": {
+    "matchup": "ATL@NOP",
+    "status": "Out",
+    "team": "Atlanta Hawks",
+    "tip": "2026-10-31T19:00:00-04:00"
+   },
+   "Ja Morant": {
+    "matchup": "POR@UTA",
+    "status": "Out",
+    "team": "Portland Trail Blazers",
+    "tip": "2026-10-31T15:00:00-04:00"
+   },
+   "Jalen Williams": {
+    "matchup": "OKC@HOU",
+    "status": "Out",
+    "team": "Oklahoma City Thunder",
+    "tip": "2026-10-31T20:30:00-04:00"
+   },
+   "Jaren Jackson Jr.": {
+    "matchup": "POR@UTA",
+    "status": "Out",
+    "team": "Utah Jazz",
+    "tip": "2026-10-31T15:00:00-04:00"
+   },
+   "Jayden Quaintance": {
+    "matchup": "MIN@SAS",
+    "status": "Out",
+    "team": "San Antonio Spurs",
+    "tip": "2026-10-31T20:00:00-04:00"
+   },
+   "Jaylon Tyson": {
+    "matchup": "CLE@MIL",
+    "status": "Out",
+    "team": "Cleveland Cavaliers",
+    "tip": "2026-10-31T20:00:00-04:00"
+   },
+   "Jock Landale": {
+    "matchup": "ATL@NOP",
+    "status": "Available",
+    "team": "Atlanta Hawks",
+    "tip": "2026-10-31T19:00:00-04:00"
+   },
+   "Jordan Poole": {
+    "matchup": "ATL@NOP",
+    "status": "Out",
+    "team": "New Orleans Pelicans",
+    "tip": "2026-10-31T19:00:00-04:00"
+   },
+   "Jusuf Nurkic": {
+    "matchup": "POR@UTA",
+    "status": "Out",
+    "team": "Utah Jazz",
+    "tip": "2026-10-31T15:00:00-04:00"
+   },
+   "Keegan Murray": {
+    "matchup": "SAC@MEM",
+    "status": "Out",
+    "team": "Sacramento Kings",
+    "tip": "2026-10-31T20:00:00-04:00"
+   },
+   "Lauri Markkanen": {
+    "matchup": "POR@UTA",
+    "status": "Questionable",
+    "team": "Utah Jazz",
+    "tip": "2026-10-31T15:00:00-04:00"
+   },
+   "Maxime Raynaud": {
+    "matchup": "SAC@MEM",
+    "status": "Out",
+    "team": "Sacramento Kings",
+    "tip": "2026-10-31T20:00:00-04:00"
+   },
+   "Meleek Thomas": {
+    "matchup": "CLE@MIL",
+    "status": "Questionable",
+    "team": "Cleveland Cavaliers",
+    "tip": "2026-10-31T20:00:00-04:00"
+   },
+   "Mouhamed Gueye": {
+    "matchup": "ATL@NOP",
+    "status": "Out",
+    "team": "Atlanta Hawks",
+    "tip": "2026-10-31T19:00:00-04:00"
+   },
+   "Nae'Qwan Tomlin": {
+    "matchup": "CLE@MIL",
+    "status": "Out",
+    "team": "Cleveland Cavaliers",
+    "tip": "2026-10-31T20:00:00-04:00"
+   },
+   "Nikola Topic": {
+    "matchup": "OKC@HOU",
+    "status": "Out",
+    "team": "Oklahoma City Thunder",
+    "tip": "2026-10-31T20:30:00-04:00"
+   },
+   "Quinten Post": {
+    "matchup": "SAC@MEM",
+    "status": "Doubtful",
+    "team": "Memphis Grizzlies",
+    "tip": "2026-10-31T20:00:00-04:00"
+   },
+   "Robert Williams III": {
+    "matchup": "POR@UTA",
+    "status": "Questionable",
+    "team": "Portland Trail Blazers",
+    "tip": "2026-10-31T15:00:00-04:00"
+   },
+   "Scotty Pippen Jr.": {
+    "matchup": "SAC@MEM",
+    "status": "Questionable",
+    "team": "Memphis Grizzlies",
+    "tip": "2026-10-31T20:00:00-04:00"
+   },
+   "Shaedon Sharpe": {
+    "matchup": "POR@UTA",
+    "status": "Out",
+    "team": "Portland Trail Blazers",
+    "tip": "2026-10-31T15:00:00-04:00"
+   },
+   "Thomas Sorber": {
+    "matchup": "OKC@HOU",
+    "status": "Out",
+    "team": "Oklahoma City Thunder",
+    "tip": "2026-10-31T20:30:00-04:00"
+   },
+   "Tobias Harris": {
+    "matchup": "MIN@SAS",
+    "status": "Out",
+    "team": "San Antonio Spurs",
+    "tip": "2026-10-31T20:00:00-04:00"
+   },
+   "Ty Jerome": {
+    "matchup": "SAC@MEM",
+    "status": "Questionable",
+    "team": "Memphis Grizzlies",
+    "tip": "2026-10-31T20:00:00-04:00"
+   },
+   "Yves Missi": {
+    "matchup": "ATL@NOP",
+    "status": "Out",
+    "team": "New Orleans Pelicans",
+    "tip": "2026-10-31T19:00:00-04:00"
+   }
+  }
+ },
+ "rotowire": {
+  "_seeded": true,
+  "seen": [
+   "nba535741",
+   "nba535742",
+   "nba535743",
+   "nba535744",
+   "nba535745",
+   "nba535747",
+   "nba535749",
+   "nba535751",
+   "nba535754",
+   "nba535755",
+   "nba535756",
+   "nba535757",
+   "nba535759",
+   "nba535762",
+   "nba535765",
+   "nba535768",
+   "nba535771",
+   "nba535772",
+   "nba535775",
+   "nba535774",
+   "nba535777",
+   "nba535779",
+   "nba535782",
+   "nba535786",
+   "nba535790",
+   "nba535791",
+   "nba535792",
+   "nba535793",
+   "nba535794",
+   "nba535795",
+   "nba535796",
+   "nba535800",
+   "nba535803",
+   "nba535808",
+   "nba535810",
+   "nba535813",
+   "nba535814",
+   "nba535830",
+   "nba535831",
+   "nba535835",
+   "nba535839",
+   "nba535838",
+   "nba535840",
+   "nba535841",
+   "nba535843",
+   "nba535844",
+   "nba535846",
+   "nba535847",
+   "nba535849",
+   "nba535852",
+   "nba535855",
+   "nba535857",
+   "nba535858",
+   "nba535862",
+   "nba535867",
+   "nba535868",
+   "nba535870",
+   "nba535871",
+   "nba535872",
+   "nba535873",
+   "nba535879",
+   "nba535884",
+   "nba535887",
+   "nba535889",
+   "nba535896",
+   "nba535899",
+   "nba535902",
+   "nba535903",
+   "nba535904",
+   "nba535905",
+   "nba535906",
+   "nba535907",
+   "nba535908",
+   "nba535909",
+   "nba535910",
+   "nba535911",
+   "nba535913",
+   "nba535915",
+   "nba535919",
+   "nba535921",
+   "nba535922",
+   "nba535925",
+   "nba535926",
+   "nba535928",
+   "nba535930",
+   "nba535931",
+   "nba535932",
+   "nba535934",
+   "nba535935",
+   "nba535936",
+   "nba535937",
+   "nba535942",
+   "nba535944",
+   "nba535946",
+   "nba535947",
+   "nba535948",
+   "nba535949",
+   "nba535950",
+   "nba535951",
+   "nba535956",
+   "nba535955",
+   "nba535965",
+   "nba535968",
+   "nba535969",
+   "nba535971",
+   "nba535973",
+   "nba535974",
+   "nba535975",
+   "nba535976",
+   "nba535985",
+   "nba535988",
+   "nba536002",
+   "nba536003",
+   "nba535978",
+   "nba536015",
+   "nba535986",
+   "nba536018",
+   "nba536019",
+   "nba536020",
+   "nba536022",
+   "nba536023",
+   "nba536024",
+   "nba536025",
+   "nba536029",
+   "nba536031",
+   "nba536037",
+   "nba536041",
+   "nba536042",
+   "nba536043",
+   "nba536044",
+   "nba536048",
+   "nba536050",
+   "nba536051",
+   "nba536055",
+   "nba536062",
+   "nba536063",
+   "nba536066",
+   "nba536068",
+   "nba536072",
+   "nba536079",
+   "nba536080",
+   "nba536083",
+   "nba536085",
+   "nba536086",
+   "nba536087",
+   "nba536093",
+   "nba536095",
+   "nba536096",
+   "nba536107",
+   "nba536109",
+   "nba536113",
+   "nba536118",
+   "nba536122",
+   "nba536123",
+   "nba536124",
+   "nba536130",
+   "nba536129",
+   "nba536160",
+   "nba536162",
+   "nba536163",
+   "nba536170",
+   "nba536173",
+   "nba536187",
+   "nba536191",
+   "nba536192",
+   "nba536193",
+   "nba536194",
+   "nba536195",
+   "nba536197",
+   "nba536200",
+   "nba536201",
+   "nba536203",
+   "nba536204",
+   "nba536206",
+   "nba536205",
+   "nba536207",
+   "nba536213",
+   "nba536215",
+   "nba536232",
+   "nba536233",
+   "nba536234",
+   "nba536236",
+   "nba536237",
+   "nba536242",
+   "nba536243",
+   "nba536245",
+   "nba536246",
+   "nba536247",
+   "nba536248",
+   "nba536249",
+   "nba536250",
+   "nba536251",
+   "nba536252",
+   "nba536253",
+   "nba536255",
+   "nba536257",
+   "nba536260",
+   "nba536269",
+   "nba536273",
+   "nba536274",
+   "nba536276",
+   "nba536277",
+   "nba536280",
+   "nba536282",
+   "nba536284",
+   "nba536314",
+   "nba536315",
+   "nba536319",
+   "nba536321",
+   "nba536348",
+   "nba536354",
+   "nba536356",
+   "nba536361",
+   "nba536362",
+   "nba536364",
+   "nba536365",
+   "nba536368",
+   "nba536369",
+   "nba536372",
+   "nba536373",
+   "nba536375",
+   "nba536376",
+   "nba536378",
+   "nba536379",
+   "nba536381",
+   "nba536382",
+   "nba536384",
+   "nba536386",
+   "nba536387",
+   "nba536394",
+   "nba536396",
+   "nba536397",
+   "nba536398",
+   "nba536402",
+   "nba536408",
+   "nba536407",
+   "nba536411",
+   "nba536412",
+   "nba536413",
+   "nba536414",
+   "nba536415",
+   "nba536416",
+   "nba536417",
+   "nba536424",
+   "nba536428",
+   "nba536433",
+   "nba536437",
+   "nba536438",
+   "nba536444",
+   "nba536445",
+   "nba536447",
+   "nba536465",
+   "nba536469",
+   "nba536472",
+   "nba536479",
+   "nba536483",
+   "nba536489",
+   "nba536519",
+   "nba536520",
+   "nba536525",
+   "nba536527",
+   "nba536528",
+   "nba536533",
+   "nba536535",
+   "nba536536",
+   "nba536539",
+   "nba536540",
+   "nba536543",
+   "nba536545",
+   "nba536546",
+   "nba536549",
+   "nba536552",
+   "nba536551",
+   "nba536553",
+   "nba536555",
+   "nba536554",
+   "nba536560",
+   "nba536559",
+   "nba536562",
+   "nba536563",
+   "nba536565",
+   "nba536567",
+   "nba536568",
+   "nba536571",
+   "nba536573",
+   "nba536574",
+   "nba536577",
+   "nba536578",
+   "nba536579",
+   "nba536580",
+   "nba536585",
+   "nba536587",
+   "nba536588",
+   "nba536589",
+   "nba536594",
+   "nba536595",
+   "nba536596",
+   "nba536598",
+   "nba536600",
+   "nba536601",
+   "nba536603",
+   "nba536604",
+   "nba536605",
+   "nba536606",
+   "nba536607",
+   "nba536608",
+   "nba536611",
+   "nba536613",
+   "nba536615",
+   "nba536609",
+   "nba536628",
+   "nba536629",
+   "nba536639",
+   "nba536644",
+   "nba536659",
+   "nba536667",
+   "nba536672",
+   "nba536714",
+   "nba536718",
+   "nba536724",
+   "nba536726",
+   "nba536732",
+   "nba536734",
+   "nba536736",
+   "nba536738",
+   "nba536737",
+   "nba536740",
+   "nba536742",
+   "nba536748",
+   "nba536750",
+   "nba536754",
+   "nba536757",
+   "nba536759",
+   "nba536760",
+   "nba536766",
+   "nba536767",
+   "nba536769",
+   "nba536768",
+   "nba536770",
+   "nba536771",
+   "nba536773",
+   "nba536775",
+   "nba536782",
+   "nba536783",
+   "nba536785",
+   "nba536786",
+   "nba536788",
+   "nba536790",
+   "nba536791",
+   "nba536793",
+   "nba536794",
+   "nba536796",
+   "nba536800",
+   "nba536809",
+   "nba536812",
+   "nba536813",
+   "nba536818",
+   "nba536823",
+   "nba536825",
+   "nba536828",
+   "nba536830",
+   "nba536833",
+   "nba536834",
+   "nba536835",
+   "nba536839",
+   "nba536846",
+   "nba536848",
+   "nba536849",
+   "nba536853",
+   "nba536862",
+   "nba536870",
+   "nba536872",
+   "nba536873",
+   "nba536878",
+   "nba536880",
+   "nba536879",
+   "nba536881",
+   "nba536882",
+   "nba536883",
+   "nba536884",
+   "nba536885",
+   "nba536886",
+   "nba536887",
+   "nba536889",
+   "nba536892",
+   "nba536895",
+   "nba536897",
+   "nba536898",
+   "nba536899",
+   "nba536902",
+   "nba536907",
+   "nba536908",
+   "nba536912",
+   "nba536917",
+   "nba536924",
+   "nba536939",
+   "nba536949",
+   "nba536952",
+   "nba536956",
+   "nba536962"
+  ]
+ },
+ "sent": {
+  "joel embiid|QUESTIONABLE": 1793454514.5889652,
+  "lebron james|LINEUP": 1793456506.846027,
+  "lebron james|QUESTIONABLE": 1793455416.8159294
+ }
+}
